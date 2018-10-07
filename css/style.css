@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=K2D');
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+.jumbotron{
+font-family: 'K2D', sans-serif;
+background: #abbaab;
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+background: linear-gradient(to right, #ffffff, #abbaab);
+}
+.jumbotron2{
+background: #606c88;
+background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+background: linear-gradient(to right, #3f4c6b, #606c88);
+border-radius:30px;
+}
+.jumbotron2 h3{
+	padding:10px;
+}
+.websiteinfo{
+	font-size: 10px;
+}
+.card {
+	font-family: 'Niramit', sans-serif;
+    position:absolute;
+    top:65%;
+    left:25%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    min-height:400px;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+}
+.card:hover {
+	animation:pulse 5s infinite;
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.card .box {
+    position:absolute;
+    top:10%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
+.card2 {
+	font-family: 'Niramit', sans-serif;
+    position:absolute;
+    top:50%;
+    left:275%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    min-height:400px;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+}
+.card2:hover {
+	animation:pulse 5s infinite;
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.card2 .box2 {
+    position:absolute;
+    top:10%;
+    left:0%;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
